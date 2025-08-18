@@ -15,15 +15,31 @@ section {
     width: 500px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.603);
     margin: auto;
-    height: 500px;
-
 }
 footer {
     color: white;
     text-align: center;
 }
-img {
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
+#inp {
+    border-radius: 7px;
+    color: black;
+    background-color: white;
+    box-shadow:  5px 5px 5px rgba(0, 0, 0, 0.144);
 }
+#inp:hover {
+    background-color: rgba(0, 0, 0, 0.13);
+}
+.inp {
+    border-radius: 7px;
+    color: black;
+    background-color: white;
+    box-shadow:  5px 5px 5px rgba(0, 0, 0, 0.144);
+}
+img { 
+    padding-top: 15px; 
+    width: 250px;  
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center 55%;    
+    }
